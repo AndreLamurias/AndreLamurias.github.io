@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+	
+	<head>
+		<meta charset="utf-8">
+		<!-- If you delete this meta tag World War Z will become a reality -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<meta name="description" content="Homepage of André Lamúrias."/>
+		<meta name="keywords" content=""/>
+		<title>André Lamúrias</title>
+		
+		<!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/foundation.css">
+		
+		<!-- If you are using the gem version, you need this only -->
+		<link rel="stylesheet" href="css/app.css">
+		
+		<script src="js/vendor/modernizr.js"></script>
+
+			
+		<style type="text/css">
+			canvas { border: 1px solid black; }
+		</style>
+	</head>
+	<body>
+		
+		<style type="text/css">
+		body{	background-color: rgba(0,0,0,0.02);
+		font-family: 'Raleway',Helvetica,Arial,sans-serif;
+			font-weight: 400;
+		}
+		.button{	padding: 1rem; 
+                    font-family: 'Raleway',Helvetica,Arial,sans-serif;
+		}
+		.button-group li{	padding-top: 3%;
+		}
+		.button-group a{	background-color: transparent;
+			color: rgba(0,0,0,1);
+		}
+		.button-group a:hover{	background-color: transparent;
+			color: rgba(0,0,0,0.4);
+		}
+		.button-group{	float: none;
+		}
+		@media only screen and (min-width: 40.063em){	.button-group{	float: right;
+			}
+		}
+		.namelogo{	padding: 20px 10px 0px 10px;
+		}
+		@media only screen and (min-width: 40.063em){	.namelogo{	padding-bottom: 20px;
+			}
+		}
+		.namelogo h1{	font-size: 1.5em;
+			font-weight: 600;
+			text-align: center;
+		}
+		@media only screen and (min-width: 40.063em){	.namelogo h1{	font-size: 16px;
+				text-align: left;
+			}
+		}
+		@media only screen and (min-width: 64.063em){	.namelogo h1{	font-size: 24px;
+				text-align: left;
+			}
+		}
+		.hero{	background: url(http://placehold.it/900x800);
+			background-size: cover;
+			box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+			height: 80%;
+		}
+		.intro-text{	color: rgba(255,255,255,1);
+			padding-top: 40%;
+			text-align: center;
+		}
+		@media only screen and (min-width: 40.063em){	.intro-text{	padding-top: 25%;
+			}
+		}
+		@media only screen and (min-width: 64.063em){	.intro-text{	padding-top: 18%;
+			}
+		}
+		.intro-text p{	font-family: 'Shadows Into Light',cursive;
+			font-size: 44px;
+		}
+		.about,.work,.contact{	padding: 50px 0 0 0;
+		}
+		.about img{	border-radius: 150px;
+			height: 250px;
+			moz-border-radius: 150px;
+			webkit-border-radius: 150px;
+			width: 250px;
+		}
+		.research img{	height: 50px;
+			width: auto;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		hr{	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+			background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+			background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+			background-image: -webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+			border: 0;
+			height: 1px;
+			opacity: 0.8;
+		}
+		footer{	padding: 80px 0 10px 0;
+		}
+		footer a:hover{	background-color: transparent;
+			color: rgba(0,0,0,0.4);
+		}
+		</style>
+		
+		
+		<div class="row">
+			<div class="small-6 medium-2 large-3 columns namelogo">
+				<h1>André Lamúrias</h1>
+			</div>
+			<div class="small-18 medium-10 large-9 columns">
+				<div class="nav-bar">
+					<ul class="button-group">
+						<li><a href="#about" class="button">About</a></li>
+						<li><a href="#research" class="button">Research</a></li>
+                        <li><a href="#publications" class="button">Publications</a></li>
+                        <li><a href="#talks" class="button">Presentations</a></li>
+						<li><a href="#other" class="button">Other</a></li>
+						<li><a href="#contact" class="button">Contacts</a></li>
+						<li><a href="static/cv.pdf" class="button">CV</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+        
+		<!--div class="hero">
+			<div class="row">
+			<div class="large-12 columns intro-text">
+			<p>Hi there!<br>I take outdoor pictures.</p> 
+			</div>
+			</div>
+		</div-->
+		
+		<div class="row about">
+			<div class="medium-6 large-8 columns" id="about">
+				<h4>About</h4>
+				<p>I'm a researcher at <a href="http://lasige.di.fc.ul.pt/">LASIGE</a>, <a href="http://www.fc.ul.pt/">Faculdade de Ciências, Universidade de Lisboa</a>. I recently concluded my PhD in Systems Biology, about disease network discovery using text mining.</p>
+			</div>
+			<div class="medium-6 large-4 columns">
+				<img src="img/foto-scaled.jpg">
+			</div>
+		</div>
+		<div class="row research">
+			<hr>
+			<div class="large-12 columns" id="research">
+				<h4>Research</h4>
+					<a href="https://scholar.google.pt/citations?hl=en&user=CusKTEIAAAAJ&view_op=list_works&sortby=pubdate"> <img src="img/scholar.gif" height="1"></a>
+                    <a href="https://www.researchgate.net/profile/Andre_Lamurias"><img src="img/researchgate.png" height="1"></a>
+					<p>My research work is mainly focused on text mining applied to biomedical text, such as scientific papers, patents and electronic health records. I apply machine learning algorithms and integrate the extracted information with domain ontologies. <p/>
+					
+					<h5><a href="https://github.com/AndreLamurias/">Projects</a></h5>
+					<p>
+					On my GitHub page you can find past projects and projects I'm currently working on.</p>
+
+			</div>
+		</div>
+		<div class="row publications">
+			<hr>
+			<div class="large-12 columns" id="publications">
+				<h4>Publications</h4>
+					<h5>Chapters</h5>
+					<ul>
+                    <li>
+                    A. Lamurias and F. Couto, “Text mining for bioinformatics using biomedical literature,” in Encyclopedia of Bioinformatics and Computational Biology (S. Ranganathan, K. Nakai, C. Schönbach, and M. Gribskov, eds.), vol. 1, pp. 602–611, Oxford: Elsevier, 2019.
+                    </li>
+                    <li>
+                    F. Couto and A. Lamurias, “Semantic similarity definition,” in Encyclopedia of Bioinformatics and Computational Biology (S. Ranganathan, K. Nakai, C. Schönbach, and M. Gribskov, eds.), vol. 1, pp. 870–876, Oxford: Elsevier, 2019.
+                    </li>
+					</ul>
+                    <h5>Journal</h5>
+					<ul>
+                    <li>
+                    A. Lamurias, P. Ruas, and F. Couto, “PPR-SSM: personalized pagerank and semantic similarity measures for entity linking,” BMC Bioinformatics, vol. 20, no. 534, pp. 1--12, 2019
+                    </li>
+                    <li>
+                    A. Lamurias, D. Sousa, L. Clarke, and F. Couto, “BO-LSTM: classifying relations via long short-term memory networks along biomedical ontologies,” BMC Bioinformatics, vol. 20, no. 10, pp. 1–12, 2019.
+                    </li>
+                    <li>
+                    F. Couto and A. Lamurias, “MER: a shell script and annotation server for minimal named entity recognition and linking,” Journal of Cheminformatics, vol. 10, no. 58, pp. 1–10, 2018. 
+                    </li>
+                    <li>
+                    A. Lamurias, J. Ferreira, L. Clarke, and F. Couto, “Generating a tolerogenic cell therapy knowledge graph from literature,” Frontiers in Immunology, vol. 8, no. 1656, pp. 1–23, 2017.
+                    </li>
+                    <li>
+                    M. Lobo, A. Lamurias, and F. Couto, “Identifying human phenotype terms by combining machine learning and validation rules,” BioMed Research International, vol. 2017, pp. 1–14, 2017. 
+                    </li>
+                    <li>
+                    A. Lamurias, L. Clarke, and F. Couto, “Extracting microRNA-gene relations from biomedical literature using distant supervision,” PLoS ONE, vol. 12, no. 3, pp. 1–20, 2017.
+                    </li>
+                    <li>
+                    A. Lamurias, J. Ferreira, and F. Couto, “Improving chemical entity recognition through h-index based semantic similarity,” Journal of Cheminformatics, vol. 7, no. Suppl 1, pp. S13, 1–20, 2015.
+                    </li>
+                    <li>
+                    A. Lamurias, J. Ferreira, and F. Couto, “Identifying interactions between chemical entities in biomedical text,” Journal of Integrative Bioinformatics, vol. 11, no. 3, pp. 1–16, 2014.
+                    </li>
+					</ul>
+					<h5>Conference</h5>
+					<ul>
+                    <li>
+                    D. Sousa, A. Lamurias, and F. Couto, “A silver standard corpus of human phenotype-gene relations,” in Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL 2019), vol. N19-1152, p. 1487–1492, 2019.   
+                    </li>
+                    <li>
+                    A. Lamurias, L. Clarke, and F. Couto, “IICE: web tool for automatic identification of chemical entities and interactions,” in European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), Demo Track, pp. 285–288, 2015.
+                    </li>
+                    <li>
+                    A. Lamurias, V. Pedro, L. Clarke, and F. Couto, “Annotating biomedical terms in electronic health records using crowd-sourcing,” in International Conference on Biomedical Ontologies (ICBO), Early Career, 2015.
+                    </li>
+                    <li>
+                    A. Lamurias, J. Ferreira, and F. Couto, “Chemical named entity recognition: Improving recall using a comprehensive list of lexical features,” in Practical Applications of Computational Biology and Bioinformatics (PACBB), vol. 294, pp. 253–260, Lecture Notes in Computer Science, 2014.
+                    </li>
+					</ul>
+                    <h5>Workshop</h5>
+                    <ul>
+                    <li>
+                    A. Lamurias and F. Couto, “LasigeBioTM at MEDIQA 2019: Biomedical question answering using bidirectional transformers and named entity recognition,” in 18th ACL Workshop on Biomedical Natural Language Processing (BioNLP 2019), 2019.
+                    </li>
+                    <li>
+                    L. Campos, A. Lamurias, and F. Couto, “Can the wisdom of the crowd be used to improve the creation of gold-standard for text mining applications?,” in INForum – Simpósio de Informática, 2017. 
+                    </li>
+                    <li>
+                    F. Couto, L. Campos, and A. Lamurias, “MER: a minimal named-entity recognition tagger and annotation server,” in BioCreative V.5 Challenge Evaluation, 2017.
+                    </li>
+                    <li>
+                    A. Lamurias, L. Campos, and F. Couto, “IBEnt: Chemical entity mentions in patents using ChEBI,” in BioCreative V.5 Challenge Evaluation, 2017.
+                    </li>
+                    <li>
+                    A. Lamurias, D. Sousa, S. Pereira, L. Clarke, and F. Couto, “ULISBOA at SemEval-2017 Task 12: Extraction and classification of temporal expressions and events,” in 10th International Workshop on Semantic Evaluation (SemEval), 2017.
+                    </li>
+                    <li>
+                    M. Barros, A. Lamurias, G. Figueiro, M. Antunes, J. Teixeira, A. Pinheiro, and F. Couto, “ULISBOA at SemEval-2016 task 12: Extraction of temporal expressions, clinical events and relations using IBEnt,” in 9th International Workshop on Semantic Evaluation (SemEval), 2016. 
+                    </li>
+                    <li>
+                    A. Lamurias, M. Lobo, M. Antunes, L. Clarke, and F. Couto, “Identifying chemical entities in patents using brown clustering and semantic similarity,” in 5th BioCreative Challenge Evaluation, 2015. 
+                    </li>
+                    <li>
+                    A. Lamurias, T. Grego, and F. Couto, “Chemical compound and drug name recognition using CRFs and semantic similarity based on ChEBI,” in 4th BioCreative Challenge Evaluation, 2013. 
+                    </li>
+                    </ul>
+                    
+			</div>
+		</div>
+		<div class="row talks">
+			<hr>
+			<div class="large-12 columns" id="talks">
+				<h4>Presentations</h4>
+                <!--h5>Future</h5-->
+                   
+                <!--h5>Past</h5-->
+					<ul>
+                    <li>
+                    2019/11/28 - <a href="http://dest.rd.ciencias.ulisboa.pt/2019/11/21/8th-dest-project-meeting/">8th DeST Meeting</a>, FCUL, Lisbon, Portugal: Python packaging tutorial
+                    <li>
+                    2019/10/04 - Seminar for Data Science MSc Students, FCUL, Lisbon, Portugal: Text mining approaches for bioinformatics
+                    <li>    
+                    2019/06/03 - <a href="https://naacl2019.org/program/accepted/">NAACL, Minneapolis, Minnesota, USA (Poster presentation): A Silver Standard Corpus of Human Phenotype-Gene Relations</a>
+                    </li>
+                     <li>
+                    2019/05/29 - <a href="https://www.itqb.unl.pt/cooltools">Cool Tools for Science</a>, Champalimaud Foundation, Lisboa, Portugal
+                    </li>
+                    <li>
+                    2019/04/12 - <a href="https://www.facebook.com/events/1219610451547033/permalink/1221483454693066/">IV Ciclo Conferências de Ciências Biomédicas à Tarde</a>, UBI Covilha, Portugal: Text Mining Approaches for Bioinformatics
+                    </li>
+                    <li> 
+                    2019/02/22 - <a href="https://www.greekc.org/activity/malaga-workshop/">The role of text mining in curation workflows</a>, GREEKC Workshop, Málaga, Spain: Extracting microRNA-gene relations from biomedical literature using distant supervision 
+                    </li>
+                    2019/02/08 - <a href="https://ciencias.ulisboa.pt/pt/evento/08-02-2019/prova-de-doutoramento-development-of-text-mining-approach-to-disease-network">PhD Defense</a>, FCUL, Lisbon, Portugal: Development of Text Mining Approach to Disease Network Discovery
+                    </li>
+                    <li>
+                    2018/12/19 - <a href="http://dest.rd.ciencias.ulisboa.pt/2018/11/30/2nd-dest-project-meeting/">2nd DeST Meeting</a>, FCUL, Lisbon, Portugal: Development of Text Mining Approach to Disease Network Discovery (first draft of PhD defense) 
+                    </li>
+                    <li>
+                    2018/12/03 - Seminar for Bioinformatics MSc Students, FCUL, Lisbon, Portugal: Text mining approaches for bioinformatics
+                    </li>
+                    <li>
+                    2017/10/12 - INforum, Aveiro, Portugal: <a href="http://webpages.fc.ul.pt/~fjcouto/files/workshop%20lcampos-inforum2017.pdf"> the Wisdom of the Crowd Be Used to Improve the Creation of Gold-standard for Text Mining applications?</a>
+                    </li>
+                    <li>
+                    2017/02/22 - Text mining workshop, Bioinformatics Open Days, Braga, Portugal, 
+                    </li>
+                    <li>
+                    2016/07/23 - Instituto de Higiene Medicina Tropical, Lisboa, Portugal; <a href="http://www.ihmt.unl.pt/ihmt-institut-francais-organizam-seminario-big-data/">Big Data, Desenvolvimento Sustentável e a Ciência Aberta</a>
+                    </lI>
+                    <li>
+                    2015/07/30 - ICBO, Early Careers track, Lisbon, Portugal: <a href="http://webpages.fc.ul.pt/~fjcouto/files/conference%20alamurias-icbo2015.pdf">Annotating biomedical ontology terms in
+                    electronic health records using crowd-sourcing</a>
+                    </li>
+                    <li>
+                    2015/09/08 - ECML PKDD demo track, Porto, Portugal: <a href="http://webpages.fc.ul.pt/~fjcouto/files/conference%20alamurias-pkdd2015.pdf">IICE: web tool for automatic identification of chemical entities and interactions</a>
+                    </li>
+                    <li>
+                    2014/09/26 - Master's thesis defense, FCUL, Lisbon, Portugal: Identifying Interactions Between Chemical Entities in Text
+                    </li>
+					</ul>
+			</div>
+		</div>
+		<div class="row other">
+			<hr>
+			<div class="large-12 columns" id="other">
+				<h4>Other Interests</h4>
+					<ul>
+                        <li>Music: <a href="http://www.last.fm/user/Lamurias">Last.fm</a></li>
+                        <li>Record collection: <a href="https://www.discogs.com/user/lamurias/collection">Discogs</a></li>
+						<li>Movies: <a href="https://letterboxd.com/lamurias/">Letterboxd</a></li>
+                        <li>TV Shows: <a href="https://trakt.tv/users/lamurias">trackt</a></li>
+						<li>Books: <a href="https://www.goodreads.com/lamurias">GoodReads</a></li>
+                        <li><a href="http://www.dhamma.org/">Vipassana meditation</a></li>
+					</ul>
+			</div>
+		</div>
+		
+		<div class="row contact">
+			<hr>
+			<div class="large-12 columns" id="contact">
+				<h4>Contacts</h4>
+				<div class="row">
+					<div class="large-4 columns">
+						<strong>Email</strong>: <a href="http://www.google.com/recaptcha/mailhide/d?k=01SrlbJpZx0wJXhPJrJOQv3A==&amp;c=Y_8_PQP1XY1B4QiXV-yngwQl0DFi1xDA3VW6flSK9V0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501SrlbJpZx0wJXhPJrJOQv3A\75\75\46c\75Y_8_PQP1XY1B4QiXV-yngwQl0DFi1xDA3VW6flSK9V0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">a...</a>@gmail.com
+					</div>
+					<div class="large-4 columns">
+					<!--<strong>Twitter</strong>: @lamurias-->
+					<script>window.twttr = (function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0],
+						t = window.twttr || {};
+					  if (d.getElementById(id)) return t;
+					  js = d.createElement(s);
+					  js.id = id;
+					  js.src = "https://platform.twitter.com/widgets.js";
+					  fjs.parentNode.insertBefore(js, fjs);
+					 
+					  t._e = [];
+					  t.ready = function(f) {
+						t._e.push(f);
+					  };
+					 
+					  return t;
+					}(document, "script", "twitter-wjs"));</script>
+					<a class="twitter-follow-button"
+					  href="https://twitter.com/lamurias">
+					Follow @lamurias</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="large-12 columns">
+						<strong>Address</strong>:<br>
+						Faculdade de Ciências da Universidade de Lisboa<br>
+						Building C6, 3rd Floor, Room 39 (6.3.39)<br>
+						Campo Grande<br>
+						1749-016 Lisboa
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="row">
+			<div class="large-12 columns">
+				<div class="row">
+					<div class="large-6 columns">
+						<p>© Copyright 2020 André Lamúrias</p>
+					</div>
+					<!--div class="large-6 columns">
+						<ul class="inline-list right">
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Privacy</a></li>
+							<li><a href="#">Suscribe</a></li>
+						</ul>
+					</div-->
+				</div>
+			</div>
+		</footer>
+		
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/foundation/foundation.clearing.js"></script>
+		
+	</body>
+</html>
