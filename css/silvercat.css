@@ -1,0 +1,130 @@
+#navigation {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content {
+	min-height: 750px;
+}
+
+#logo {
+	max-width: 100px;
+	min-height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#copyrigth {
+	margin: 0px 0px;
+	text-align: center;
+	display: block;
+}
+
+.text-gradient {
+	color: #9A9192;
+	background: -webkit-repeating-linear-gradient(right, #9A9192, #F6F5F3 5%, #9A9192 5%);
+	background: -o-repeating-linear-gradient(to right, #9A9192, #F6F5F3 5%, #9A9192 5%);
+	background: -ms-repeating-linear-gradient(to right, #9A9192, #F6F5F3 5%, #9A9192 5%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display:inline-block;
+}
+
+#contactsImg { 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#contacts {
+	text-align: center;
+	margin-top: 60px;
+}
+
+h1.contacts {
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #F2F1EF;
+	margin-bottom: 30px;
+}
+
+p.contacts {
+	margin: 0px 0px;
+}
+
+p.contacts a {
+	text-decoration: none;
+	color: inherit;
+}
+
+p.contacts a:hover a:focus{
+	text-decoration: underline;
+}
+
+#contact-info {	
+	font-size: 17px;
+}
+
+#social-media {
+	margin-top: 50px;
+}
+
+.socicons-list {
+ list-style: none;
+ display: flex;
+ justify-content: center;
+}
+.socicons-list li {
+ margin-right: 15px;
+}
+.socicons-list li a {
+ text-decoration: none;
+ padding: 10px;
+ font-size: 10px;
+ -webkit-border-radius: 100%;
+ -moz-border-radius: 100%;
+ border-radius: 100%;
+ color: #fff;
+ background-color: #9A9192;
+ border:2px solid #9A9192;
+ transition: all ease-in-out 150ms;
+}
+.socicons-list li a:hover {
+ background-color: transparent;
+}
+
+ul.socicons-list {
+	margin: 0px; 
+	padding: 0px;
+}
+
+#shows .bit-widget {
+	color: #fff;
+}
+
+
+#stream {
+	text-align: center;
+	margin-top: 60px;
+}
+
+#stream .socicons-list li a{
+	font-size: 20px;
+	-webkit-border-radius: 30%;
+	-moz-border-radius: 30%;
+	border-radius: 30%;
+}
+
+#stream .socicons-list li {
+ margin-right: 50px;
+}
+
+h1.stream {
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #F2F1EF;
+	margin-bottom: 80px;
+}
+
+#stream #social-media {
+	margin-left: 50px;
+}
