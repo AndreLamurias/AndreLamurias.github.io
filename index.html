@@ -1,225 +1,303 @@
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en" >
-	
-	<head>
-		<meta charset="utf-8">
-		<!-- If you delete this meta tag World War Z will become a reality -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<meta name="description" content="Homepage of André Lamúrias."/>
-		<meta name="keywords" content=""/>
-		<title>André Lamúrias</title>
-		
-		<!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/foundation.css">
-		
-		<!-- If you are using the gem version, you need this only -->
-		<link rel="stylesheet" href="css/app.css">
-		
-		<script src="js/vendor/modernizr.js"></script>
+<html class="no-js" lang="en">
 
-			
-		<style type="text/css">
-			canvas { border: 1px solid black; }
-		</style>
-	</head>
-	<body>
-		
-		<style type="text/css">
-		body{	background-color: rgba(0,0,0,0.02);
-		font-family: 'Raleway',Helvetica,Arial,sans-serif;
+<head>
+	<meta charset="utf-8">
+	<!-- If you delete this meta tag World War Z will become a reality -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta name="description" content="Homepage of André Lamúrias." />
+	<meta name="keywords" content="" />
+	<title>André Lamúrias</title>
+
+	<!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/foundation.css">
+
+	<!-- If you are using the gem version, you need this only -->
+	<link rel="stylesheet" href="css/app.css">
+
+	<script src="js/vendor/modernizr.js"></script>
+
+
+	<style type="text/css">
+		canvas {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+
+<body>
+
+	<style type="text/css">
+		body {
+			background-color: rgba(0, 0, 0, 0.02);
+			font-family: 'Raleway', Helvetica, Arial, sans-serif;
 			font-weight: 400;
 		}
-		.button{	padding: 1rem; 
-                    font-family: 'Raleway',Helvetica,Arial,sans-serif;
+
+		.button {
+			padding: 1rem;
+			font-family: 'Raleway', Helvetica, Arial, sans-serif;
 		}
-		.button-group li{	padding-top: 3%;
+
+		.button-group li {
+			padding-top: 3%;
 		}
-		.button-group a{	background-color: transparent;
-			color: rgba(0,0,0,1);
+
+		.button-group a {
+			background-color: transparent;
+			color: rgba(0, 0, 0, 1);
 		}
-		.button-group a:hover{	background-color: transparent;
-			color: rgba(0,0,0,0.4);
+
+		.button-group a:hover {
+			background-color: transparent;
+			color: rgba(0, 0, 0, 0.4);
 		}
-		.button-group{	float: none;
+
+		.button-group {
+			float: none;
 		}
-		@media only screen and (min-width: 40.063em){	.button-group{	float: right;
+
+		@media only screen and (min-width: 40.063em) {
+			.button-group {
+				float: right;
 			}
 		}
-		.namelogo{	padding: 20px 10px 0px 10px;
+
+		.namelogo {
+			padding: 20px 10px 0px 10px;
 		}
-		@media only screen and (min-width: 40.063em){	.namelogo{	padding-bottom: 20px;
+
+		@media only screen and (min-width: 40.063em) {
+			.namelogo {
+				padding-bottom: 20px;
 			}
 		}
-		.namelogo h1{	font-size: 1.5em;
+
+		.namelogo h1 {
+			font-size: 1.5em;
 			font-weight: 600;
 			text-align: center;
 		}
-		@media only screen and (min-width: 40.063em){	.namelogo h1{	font-size: 16px;
+
+		@media only screen and (min-width: 40.063em) {
+			.namelogo h1 {
+				font-size: 16px;
 				text-align: left;
 			}
 		}
-		@media only screen and (min-width: 64.063em){	.namelogo h1{	font-size: 24px;
+
+		@media only screen and (min-width: 64.063em) {
+			.namelogo h1 {
+				font-size: 24px;
 				text-align: left;
 			}
 		}
-		.hero{	background: url(http://placehold.it/900x800);
+
+		.hero {
+			background: url(http://placehold.it/900x800);
 			background-size: cover;
-			box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+			box-shadow: inset 0px 0px 0 2000px rgba(0, 0, 0, 0.15);
 			height: 80%;
 		}
-		.intro-text{	color: rgba(255,255,255,1);
+
+		.intro-text {
+			color: rgba(255, 255, 255, 1);
 			padding-top: 40%;
 			text-align: center;
 		}
-		@media only screen and (min-width: 40.063em){	.intro-text{	padding-top: 25%;
+
+		@media only screen and (min-width: 40.063em) {
+			.intro-text {
+				padding-top: 25%;
 			}
 		}
-		@media only screen and (min-width: 64.063em){	.intro-text{	padding-top: 18%;
+
+		@media only screen and (min-width: 64.063em) {
+			.intro-text {
+				padding-top: 18%;
 			}
 		}
-		.intro-text p{	font-family: 'Shadows Into Light',cursive;
+
+		.intro-text p {
+			font-family: 'Shadows Into Light', cursive;
 			font-size: 44px;
 		}
-		.about,.work,.contact{	padding: 50px 0 0 0;
+
+		.about,
+		.work,
+		.contact {
+			padding: 50px 0 0 0;
 		}
-		.about img{	border-radius: 150px;
+
+		.about img {
+			border-radius: 150px;
 			height: 250px;
 			moz-border-radius: 150px;
 			webkit-border-radius: 150px;
 			width: 250px;
 			object-fit: cover;
-			object-position: 15% 15%; 
+			object-position: 15% 15%;
 		}
-		.research img{	height: 50px;
+
+		.research img {
+			height: 50px;
 			width: auto;
 			padding-left: 10px;
 			padding-right: 10px;
 		}
-		hr{	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
-			background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
-			background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
-			background-image: -webkit-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+
+		hr {
+			background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+			background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+			background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+			background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 			border: 0;
 			height: 1px;
 			opacity: 0.8;
 		}
-		footer{	padding: 80px 0 10px 0;
+
+		footer {
+			padding: 80px 0 10px 0;
 		}
-		footer a:hover{	background-color: transparent;
-			color: rgba(0,0,0,0.4);
+
+		footer a:hover {
+			background-color: transparent;
+			color: rgba(0, 0, 0, 0.4);
 		}
-		</style>
-		
-		
-		<div class="row">
-			<div class="small-6 medium-2 large-3 columns namelogo">
-				<h1>André Lamúrias</h1>
-			</div>
-			<div class="small-18 medium-10 large-9 columns">
-				<div class="nav-bar">
-					<ul class="button-group">
-						<li><a href="#about" class="button">About</a></li>
-						<li><a href="#research" class="button">Research</a></li>
-                        <li><a href="#publications" class="button">Publications</a></li>
-                        <li><a href="#talks" class="button">Presentations</a></li>
-						<li><a href="#other" class="button">Other</a></li>
-						<li><a href="#contact" class="button">Contacts</a></li>
-						<li><a href="static/cv.pdf" class="button">CV</a></li>
-					</ul>
-				</div>
+	</style>
+
+
+	<div class="row">
+		<div class="small-6 medium-2 large-3 columns namelogo">
+			<h1>André Lamúrias</h1>
+		</div>
+		<div class="small-18 medium-10 large-9 columns">
+			<div class="nav-bar">
+				<ul class="button-group">
+					<li><a href="#about" class="button">About</a></li>
+					<li><a href="#research" class="button">Research</a></li>
+					<li><a href="#publications" class="button">Publications</a></li>
+					<li><a href="#talks" class="button">Presentations</a></li>
+					<li><a href="#other" class="button">Other</a></li>
+					<li><a href="#contact" class="button">Contacts</a></li>
+					<li><a href="static/cv.pdf" class="button">CV</a></li>
+				</ul>
 			</div>
 		</div>
-        
-		<!--div class="hero">
+	</div>
+
+	<!--div class="hero">
 			<div class="row">
 			<div class="large-12 columns intro-text">
 			<p>Hi there!<br>I take outdoor pictures.</p> 
 			</div>
 			</div>
 		</div-->
-		
-		<div class="row about">
-			<div class="medium-6 large-8 columns" id="about">
-				<h4>About</h4>
-				<p class="text-justify">I'm an Assistant Professor at the Department of Computer Science of NOVA School of Science and Technology, Lisbon, Portugal.
-					
-					<p class="text-justify"> In the past I've worked at the Department of Computer Science, Aalborg University, as a post-doc research in the <a href="https://www.cs.aau.dk/research/data-knowledge-and-web-engineering">DKWE group</a>, and at <a href="https://labs.priberam.com/">Priberam Labs</a>.  </p>
-				            I did my PhD at <a href="https://www.lasige.pt/">LASIGE</a>, Faculdade de Ciencias, Universidade de Lisboa.
-			</div>
-			<div class="medium-6 large-4 columns">
-				<img src="img/foto_aau.jpg">
-			</div>
+
+	<div class="row about">
+		<div class="medium-6 large-8 columns" id="about">
+			<h4>About</h4>
+			<p class="text-justify">I'm an Assistant Professor at the Department of Computer Science of NOVA School of
+				Science and Technology, Lisbon, Portugal.
+
+			<p class="text-justify"> In the past I've worked at the Department of Computer Science, Aalborg University,
+				as a post-doc research in the <a
+					href="https://www.cs.aau.dk/research/data-knowledge-and-web-engineering">DKWE group</a>, and at <a
+					href="https://labs.priberam.com/">Priberam Labs</a>. </p>
+			I did my PhD at <a href="https://www.lasige.pt/">LASIGE</a>, Faculdade de Ciencias, Universidade de Lisboa.
 		</div>
-		<div class="row research">
-			<hr>
-			<div class="text-justify large-12 columns" id="research">
-				<h4>Research</h4>	
-					<p>My research work is mainly focused on information extraction applied to biomedical data, such as scientific papers, electronic health records and genomics. I work with machine learning algorithms and integrate the extracted information with domain ontologies. </p>
-					<p>
-					On my <a href="https://github.com/AndreLamurias/">GitHub</a> page you can find past projects and projects I'm currently working on. My publications can be found on <a href="https://scholar.google.pt/citations?hl=en&user=CusKTEIAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> and <a href="https://www.researchgate.net/profile/Andre_Lamurias">Research Gate</a>.</p>
+		<div class="medium-6 large-4 columns">
+			<img src="img/foto_aau.jpg">
+		</div>
+	</div>
+	<div class="row research">
+		<hr>
+		<div class="text-justify large-12 columns" id="research">
+			<h4>Research</h4>
+			<p>My research work is mainly focused on information extraction applied to biomedical data, such as
+				scientific papers, electronic health records and genomics. I work with machine learning algorithms and
+				integrate the extracted information with domain ontologies. </p>
+			<p>
+				On my <a href="https://github.com/AndreLamurias/">GitHub</a> page you can find past projects and
+				projects I'm currently working on. My publications can be found on <a
+					href="https://scholar.google.pt/citations?hl=en&user=CusKTEIAAAAJ&view_op=list_works&sortby=pubdate">Google
+					Scholar</a> and <a href="https://www.researchgate.net/profile/Andre_Lamurias">Research Gate</a>.</p>
 			<!--div class="row supervisions"-->
-					<hr>
-				<!--div class="large-12 columns" id="supervisions"-->
-					<p><h5>MSc Thesis Supervisions</h5>
-						<h6>On-going</h6>
-						<ul>
-							<li>
-							Cláudio Guerra - Metagenomic language models (2026)
-							</li>
-							<li>
-							Gonçalo Soares - Benchmarking Metagenomic Binning Algorithms (2026)
-							</li>
-							<li>
-							Diogo Mousinho - Using transformers for ligand-protein affinity prediction, Co-supervised with Arménio Barbosa, UCI-BIO, NOVA-FCT
-							</li>
-							<li>
-							David Castro - Automated non-tagged protein purification protocol prediction, Co-supervised with Arménio Barbosa, UCI-BIO, NOVA-FCT
-							</li>
-							<li>
-								Miguel Lourenço -  Extraction of structured information from biomedical documents
-							</li>
-							<li>
-								Tomás Dias -  Recovering genomes from microbial communities with domain constraints, Co-supervised with Matthias Knorr and Ricardo Gonçalves, NOVA LINCS, NOVA-FCT
-							</li>
-							
-						</ul>
-						<h6>Completed</h6>
-						<ul>
-							<li>
-							Tomás Carvalho (NOVA-FCT) - Information Extraction from Biomedical Documents in Low-Resource Scenarios, Co-supervised with Diana Sousa, European Commission JRC (2025)
-							</li>
-						    <li>
-							Guilherme Poças (NOVA-FCT) - Levering cell embeddings for improved cell type classification, Co-supervised with Muhammad Asif, University of Cambridge (2025)
-							</li>
-							<li>
-							José Barata (NOVA-FCT) - Recovering genomes from microbial communities with unsupervised learning (2025)
-							</li>
-							<li>
-							Tiago Gomes (NOVA-FCT) - Exploring Graph Neural Networks for Metagenomics Assembly Graphs (2025)
-							</li>
-							<li>
-							Diogo Ramos (NOVA-FCT) - <a href="http://hdl.handle.net/10362/182368">Multi-domain document retrieval for database curation</a> (2024)
-							</li>
-							<li>
-							Rodrigo Gonçalves (NOVA-FCT) - <a href="http://hdl.handle.net/10362/182370">Entity recognition and linking for biomedical documents</a> (2024)
-							</li>
-							<li>
-							Miguel Vieira (FCUL) - <a href="http://hdl.handle.net/10451/49387">Development of a Corpus for User-based Scientific Question Answering</a>, Co-supervised with Francisco Couto (2021)
-							</li>
-							<li>
-							André Neves (FCUL) - <a href="http://hdl.handle.net/10451/45249">Applying Deep Learning Extreme Multi-Label Classification to the Biomedical and Multilingual Panoramas</a>, Co-supervised with Francisco Couto (2020)
-							</li>
-						</ul></p>
-				<!--/div-->
-			<!--/div-->
-			</div>
-		</div>
-		<div class="row teaching">
 			<hr>
-			<div class="text-justify large-12 columns" id="teaching">
+			<!--div class="large-12 columns" id="supervisions"-->
+			<p>
+			<h5>MSc Thesis Supervisions</h5>
+			<h6>On-going</h6>
+			<ul>
+				<li>
+					Cláudio Guerra - Metagenomic language models (2026)
+				</li>
+				<li>
+					Gonçalo Soares - Benchmarking Metagenomic Binning Algorithms (2026)
+				</li>
+				<li>
+					Diogo Mousinho - Using transformers for ligand-protein affinity prediction, Co-supervised with
+					Arménio Barbosa, UCI-BIO, NOVA-FCT
+				</li>
+				<li>
+					David Castro - Automated non-tagged protein purification protocol prediction, Co-supervised with
+					Arménio Barbosa, UCI-BIO, NOVA-FCT
+				</li>
+				<li>
+					Miguel Lourenço - Extraction of structured information from biomedical documents
+				</li>
+				<li>
+					Tomás Dias - Recovering genomes from microbial communities with domain constraints, Co-supervised
+					with Matthias Knorr and Ricardo Gonçalves, NOVA LINCS, NOVA-FCT
+				</li>
+
+			</ul>
+			<h6>Completed</h6>
+			<ul>
+				<li>
+					Tomás Carvalho (NOVA-FCT) - Information Extraction from Biomedical Documents in Low-Resource
+					Scenarios, Co-supervised with Diana Sousa, European Commission JRC (2025)
+				</li>
+				<li>
+					Guilherme Poças (NOVA-FCT) - Levering cell embeddings for improved cell type classification,
+					Co-supervised with Muhammad Asif, University of Cambridge (2025)
+				</li>
+				<li>
+					José Barata (NOVA-FCT) - Recovering genomes from microbial communities with unsupervised learning
+					(2025)
+				</li>
+				<li>
+					Tiago Gomes (NOVA-FCT) - Exploring Graph Neural Networks for Metagenomics Assembly Graphs (2025)
+				</li>
+				<li>
+					Diogo Ramos (NOVA-FCT) - <a href="http://hdl.handle.net/10362/182368">Multi-domain document
+						retrieval for database curation</a> (2024)
+				</li>
+				<li>
+					Rodrigo Gonçalves (NOVA-FCT) - <a href="http://hdl.handle.net/10362/182370">Entity recognition and
+						linking for biomedical documents</a> (2024)
+				</li>
+				<li>
+					Miguel Vieira (FCUL) - <a href="http://hdl.handle.net/10451/49387">Development of a Corpus for
+						User-based Scientific Question Answering</a>, Co-supervised with Francisco Couto (2021)
+				</li>
+				<li>
+					André Neves (FCUL) - <a href="http://hdl.handle.net/10451/45249">Applying Deep Learning Extreme
+						Multi-Label Classification to the Biomedical and Multilingual Panoramas</a>, Co-supervised with
+					Francisco Couto (2020)
+				</li>
+			</ul>
+			</p>
+			<!--/div-->
+			<!--/div-->
+		</div>
+	</div>
+	<div class="row teaching">
+		<hr>
+		<div class="text-justify large-12 columns" id="teaching">
 			<h4>Teaching</h4>
 			<ul>
 				<li>
@@ -227,259 +305,461 @@
 				</li>
 
 				<li>
-					Algorithms and Data Structures for Biology (MSc in Computational Biology and Bioinformatics @FCT NOVA) 2024/2025, 2025/26
+					Algorithms and Data Structures for Biology (MSc in Computational Biology and Bioinformatics @FCT
+					NOVA) 2024/2025, 2025/26
 				</li>
 
 				<li>
-					Artificial Intelligence Techniques for Biology (MSc in Computational Biology and Bioinformatics @FCT NOVA) 2023/24, 2024/2025, 2025/26, 2026/27
+					Artificial Intelligence Techniques for Biology (MSc in Computational Biology and Bioinformatics @FCT
+					NOVA) 2023/24, 2024/2025, 2025/26, 2026/27
 				</li>
-				
+
 				<li>
-					Databases (2nd year BSc in Computer Science and Engineering @FCT NOVA - 2022/23, 2023/24, 2024/25, 2025/26, 2026/27
+					Databases (2nd year BSc in Computer Science and Engineering @FCT NOVA - 2022/23, 2023/24, 2024/25,
+					2025/26, 2026/27
 				</li>
 				<li>
-					Artificial Intelligence (3rd year BSc in Computer Science and Engineering @FCT NOVA) - 2023/24, 2024/25
+					Artificial Intelligence (3rd year BSc in Computer Science and Engineering @FCT NOVA) - 2023/24,
+					2024/25
 				</li>
 			</ul>
-			</div>
 		</div>
-		
-		<div class="row publications">
-			<hr>
-			<div class="text-justify large-12 columns" id="publications">
-				<h4>Publications</h4>
-					<h5>Chapters</h5>
-					<ul>
-                    <li>
-                    A. Lamurias and F. Couto, “Text mining for bioinformatics using biomedical literature,” in Encyclopedia of Bioinformatics and Computational Biology (S. Ranganathan, K. Nakai, C. Schönbach, and M. Gribskov, eds.), vol. 1, pp. 602–611, Oxford: Elsevier, 2019.
-                    </li>
-                    <li>
-                    F. Couto and A. Lamurias, “Semantic similarity definition,” in Encyclopedia of Bioinformatics and Computational Biology (S. Ranganathan, K. Nakai, C. Schönbach, and M. Gribskov, eds.), vol. 1, pp. 870–876, Oxford: Elsevier, 2019.
-                    </li>
-					</ul>
-                    <h5>Journal</h5>
-					<ul>
-						<li>
-						  <div class="csl-entry">Asif, M., Martiniano, H. F. M. C., Lamurias, A., Kausar, S., &amp; Couto, F. M. (2023). DGH-GO: Dissecting the genetic heterogeneity of complex diseases using gene ontology. <i>BMC Bioinformatics</i>, <i>24</i>(1), 171. <a href="https://doi.org/10.1186/s12859-023-05290-4">https://doi.org/10.1186/s12859-023-05290-4</a></div>
-</li>
-					<li>
-					A. Lamurias, M. Sereika, M. Albertsen, K. Hose, & T.D. Nielsen, "Metagenomic binning with assembly graph embeddings". bioRxiv, 2022 (preprint).
-					</li>
-					<li>
-					A. Lamurias, S. Jesus, V. Neveu, R. Salek, and F. Couto, “Information retrieval using machine learning for biomarker curation in the exposome-explorer,” Frontiers in Research Metrics and Analytics, vol. 6, no. 55, pp. 1--10, 2021. 
-					</li>
-					<li>
-						P. Ruas, A. Lamurias, and F. Couto, “Linking chemical and disease entities to ontologies by integrating PageRank with extracted relations from literature,” Journal of Cheminformatics, vol. 12, no. 57, pp. 1--15, 2020. 
-					</li>
-					<li>
-						D. Sousa, A. Lamurias, and F. Couto, “A hybrid approach toward biomedical relation extraction training corpora: combining distant supervision with crowdsourcing,” Database: The Journal of Biological Databases and Curation, vol. 2020, no. baaa104, pp. 1--15, 2020. 
-					</li>
-					<li>
-					A. Lamurias, D. Sousa, F.M. Couto, "Generating biomedical question answering corpora from q&a forums." IEEE Access, 8, 161042-161051, 2020
-					</li>
-                    <li>
-                    A. Lamurias, P. Ruas, and F. Couto, “PPR-SSM: personalized pagerank and semantic similarity measures for entity linking,” BMC Bioinformatics, vol. 20, no. 534, pp. 1--12, 2019
-                    </li>
-                    <li>
-                    A. Lamurias, D. Sousa, L. Clarke, and F. Couto, “BO-LSTM: classifying relations via long short-term memory networks along biomedical ontologies,” BMC Bioinformatics, vol. 20, no. 10, pp. 1–12, 2019.
-                    </li>
-                    <li>
-                    F. Couto and A. Lamurias, “MER: a shell script and annotation server for minimal named entity recognition and linking,” Journal of Cheminformatics, vol. 10, no. 58, pp. 1–10, 2018. 
-                    </li>
-                    <li>
-                    A. Lamurias, J. Ferreira, L. Clarke, and F. Couto, “Generating a tolerogenic cell therapy knowledge graph from literature,” Frontiers in Immunology, vol. 8, no. 1656, pp. 1–23, 2017.
-                    </li>
-                    <li>
-                    M. Lobo, A. Lamurias, and F. Couto, “Identifying human phenotype terms by combining machine learning and validation rules,” BioMed Research International, vol. 2017, pp. 1–14, 2017. 
-                    </li>
-                    <li>
-                    A. Lamurias, L. Clarke, and F. Couto, “Extracting microRNA-gene relations from biomedical literature using distant supervision,” PLoS ONE, vol. 12, no. 3, pp. 1–20, 2017.
-                    </li>
-                    <li>
-                    A. Lamurias, J. Ferreira, and F. Couto, “Improving chemical entity recognition through h-index based semantic similarity,” Journal of Cheminformatics, vol. 7, no. Suppl 1, pp. S13, 1–20, 2015.
-                    </li>
-                    <li>
-                    A. Lamurias, J. Ferreira, and F. Couto, “Identifying interactions between chemical entities in biomedical text,” Journal of Integrative Bioinformatics, vol. 11, no. 3, pp. 1–16, 2014.
-                    </li>
-					</ul>
-					<h5>Conference</h5>
-					<ul>
-                    <li>
-                    D. Sousa, A. Lamurias, and F. Couto, “A silver standard corpus of human phenotype-gene relations,” in Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL 2019), vol. N19-1152, p. 1487–1492, 2019.   
-                    </li>
-                    <li>
-                    A. Lamurias, L. Clarke, and F. Couto, “IICE: web tool for automatic identification of chemical entities and interactions,” in European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD), Demo Track, pp. 285–288, 2015.
-                    </li>
-                    <li>
-                    A. Lamurias, V. Pedro, L. Clarke, and F. Couto, “Annotating biomedical terms in electronic health records using crowd-sourcing,” in International Conference on Biomedical Ontologies (ICBO), Early Career, 2015.
-                    </li>
-                    <li>
-                    A. Lamurias, J. Ferreira, and F. Couto, “Chemical named entity recognition: Improving recall using a comprehensive list of lexical features,” in Practical Applications of Computational Biology and Bioinformatics (PACBB), vol. 294, pp. 253–260, Lecture Notes in Computer Science, 2014.
-                    </li>
-					</ul>
-                    <h5>Workshop</h5>
-                    <ul>
-                    <li>
-                    A. Lamurias and F. Couto, “LasigeBioTM at MEDIQA 2019: Biomedical question answering using bidirectional transformers and named entity recognition,” in 18th ACL Workshop on Biomedical Natural Language Processing (BioNLP 2019), 2019.
-                    </li>
-                    <li>
-                    L. Campos, A. Lamurias, and F. Couto, “Can the wisdom of the crowd be used to improve the creation of gold-standard for text mining applications?,” in INForum – Simpósio de Informática, 2017. 
-                    </li>
-                    <li>
-                    F. Couto, L. Campos, and A. Lamurias, “MER: a minimal named-entity recognition tagger and annotation server,” in BioCreative V.5 Challenge Evaluation, 2017.
-                    </li>
-                    <li>
-                    A. Lamurias, L. Campos, and F. Couto, “IBEnt: Chemical entity mentions in patents using ChEBI,” in BioCreative V.5 Challenge Evaluation, 2017.
-                    </li>
-                    <li>
-                    A. Lamurias, D. Sousa, S. Pereira, L. Clarke, and F. Couto, “ULISBOA at SemEval-2017 Task 12: Extraction and classification of temporal expressions and events,” in 10th International Workshop on Semantic Evaluation (SemEval), 2017.
-                    </li>
-                    <li>
-                    M. Barros, A. Lamurias, G. Figueiro, M. Antunes, J. Teixeira, A. Pinheiro, and F. Couto, “ULISBOA at SemEval-2016 task 12: Extraction of temporal expressions, clinical events and relations using IBEnt,” in 9th International Workshop on Semantic Evaluation (SemEval), 2016. 
-                    </li>
-                    <li>
-                    A. Lamurias, M. Lobo, M. Antunes, L. Clarke, and F. Couto, “Identifying chemical entities in patents using brown clustering and semantic similarity,” in 5th BioCreative Challenge Evaluation, 2015. 
-                    </li>
-                    <li>
-                    A. Lamurias, T. Grego, and F. Couto, “Chemical compound and drug name recognition using CRFs and semantic similarity based on ChEBI,” in 4th BioCreative Challenge Evaluation, 2013. 
-                    </li>
-                    </ul>
-                    
-			</div>
+	</div>
+
+	<div class="row publications">
+		<hr>
+		<div class="text-justify large-12 columns" id="publications">
+			<h4>Publications</h4>
+			<h5>Chapters</h5>
+			<ul>
+				<li>
+					<div class="csl-entry">Sousa, D., Lamurias, A., &amp; Couto, F. M. (2021). Using Neural Networks for
+						Relation Extraction from Biomedical Literature. In H. Cartwright (Ed.), <i>Artificial Neural
+							Networks</i> (pp. 289–305). Springer US. <a
+							href="https://doi.org/10.1007/978-1-0716-0826-5_14">https://doi.org/10.1007/978-1-0716-0826-5_14</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., &amp; Couto, F. M. (2019). Text Mining for Bioinformatics Using
+						Biomedical Literature. In <i>Encyclopedia of Bioinformatics and Computational Biology</i> (pp.
+						602–611). Elsevier. <a
+							href="https://doi.org/10.1016/B978-0-12-809633-8.20409-3">https://doi.org/10.1016/B978-0-12-809633-8.20409-3</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Couto, F. M., &amp; Lamurias, A. (2019). Semantic Similarity Definition. In
+						<i>Encyclopedia of Bioinformatics and Computational Biology</i> (pp. 870–876). Elsevier. <a
+							href="https://doi.org/10.1016/B978-0-12-809633-8.20401-9">https://doi.org/10.1016/B978-0-12-809633-8.20401-9</a>
+					</div>
+
+				</li>
+			</ul>
+			<h5>Journal</h5>
+			<ul>
+				<li>
+					<div class="csl-entry">Guven, Z. A., &amp; Lamurias, A. (2023). Multilingual bi-encoder models for
+						biomedical entity linking. <i>Expert Systems</i>, <i>40</i>(9), e13388. <a
+							href="https://doi.org/10.1111/exsy.13388">https://doi.org/10.1111/exsy.13388</a></div>
+				</li>
+				<li>
+					<div class="csl-entry">Bak, O. S., Jensen, M. D., Trudslev, F. M., Windfeld, A., &amp; Lamurias, A.
+						(2023). BinChill: A Metagenomic Binning Ensemble Method. <i>IEEE Access</i>, <i>11</i>,
+						49561–49577. IEEE Access. <a
+							href="https://doi.org/10.1109/ACCESS.2023.3277755">https://doi.org/10.1109/ACCESS.2023.3277755</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Asif, M., Martiniano, H. F. M. C., Lamurias, A., Kausar, S., &amp; Couto, F.
+						M. (2023). DGH-GO: Dissecting the genetic heterogeneity of complex diseases using gene ontology.
+						<i>BMC Bioinformatics</i>, <i>24</i>(1), 171. <a
+							href="https://doi.org/10.1186/s12859-023-05290-4">https://doi.org/10.1186/s12859-023-05290-4</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Sereika, M., Albertsen, M., Hose, K., &amp; Nielsen, T. D.
+						(2022). Metagenomic binning with assembly graph embeddings. <i>Bioinformatics</i>,
+						<i>38</i>(19), 4481–4487. <a
+							href="https://doi.org/10.1093/bioinformatics/btac557">https://doi.org/10.1093/bioinformatics/btac557</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Jesus, S., Neveu, V., Salek, R. M., &amp; Couto, F. M. (2021).
+						Information Retrieval Using Machine Learning for Biomarker Curation in the Exposome-Explorer.
+						<i>Frontiers in Research Metrics and Analytics</i>, <i>6</i>. <a
+							href="https://www.frontiersin.org/articles/10.3389/frma.2021.689264">https://www.frontiersin.org/articles/10.3389/frma.2021.689264</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Ruas, P., Lamurias, A., &amp; Couto, F. M. (2020). Linking chemical and
+						disease entities to ontologies by integrating PageRank with extracted relations from literature.
+						<i>Journal of Cheminformatics</i>, <i>12</i>(1), 57. <a
+							href="https://doi.org/10.1186/s13321-020-00461-4">https://doi.org/10.1186/s13321-020-00461-4</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Sousa, D., Lamurias, A., &amp; Couto, F. M. (2020). A hybrid approach toward
+						biomedical relation extraction training corpora: Combining distant supervision with
+						crowdsourcing. <i>Database</i>, <i>2020</i>, baaa104.</div>
+				</li>
+				<li>
+					<div class="csl-entry">Sousa, D., Lamurias, A., &amp; Couto, F. M. (2020b). Improving accessibility
+						and distinction between negative results in biomedical relation extraction. <i>Genomics &amp;
+							Informatics</i>, <i>18</i>(2), e20.</div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Sousa, D., &amp; Couto, F. M. (2020). Generating Biomedical
+						Question Answering Corpora From Q&amp;A Forums. <i>IEEE Access</i>, <i>8</i>, 161042–161051.
+						IEEE Access. <a
+							href="https://doi.org/10.1109/ACCESS.2020.3020868">https://doi.org/10.1109/ACCESS.2020.3020868</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Ruas, P., &amp; Couto, F. M. (2019). PPR-SSM: Personalized
+						PageRank and semantic similarity measures for entity linking. <i>BMC Bioinformatics</i>,
+						<i>20</i>(1), 534. <a
+							href="https://doi.org/10.1186/s12859-019-3157-y">https://doi.org/10.1186/s12859-019-3157-y</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Sousa, D., Clarke, L. A., &amp; Couto, F. M. (2019). BO-LSTM:
+						Classifying relations via long short-term memory networks along biomedical ontologies. <i>BMC
+							Bioinformatics</i>, <i>20</i>(1), 10. <a
+							href="https://doi.org/10.1186/s12859-018-2584-5">https://doi.org/10.1186/s12859-018-2584-5</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Couto, F. M., &amp; Lamurias, A. (2018). MER: A shell script and annotation
+						server for minimal named entity recognition and linking. <i>Journal of Cheminformatics</i>,
+						<i>10</i>(1), 58. <a
+							href="https://doi.org/10.1186/s13321-018-0312-9">https://doi.org/10.1186/s13321-018-0312-9</a>
+					</div>
+
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Ferreira, J. D., Clarke, L. A., &amp; Couto, F. M. (2017).
+						Generating a tolerogenic cell therapy knowledge graph from literature. <i>Frontiers in
+							Immunology</i>, <i>8</i>, 1656.</div>
+				</li>
+				<li>
+					<div class="csl-entry">Lobo, M., Lamurias, A., &amp; Couto, F. M. (2017). Identifying human
+						phenotype terms by combining machine learning and validation rules. <i>BioMed Research
+							International</i>, <i>2017</i>. <a
+							href="https://doi.org/10.1155/2017/8565739">https://doi.org/10.1155/2017/8565739</a></div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Clarke, L. A., &amp; Couto, F. M. (2017). Extracting
+						microRNA-gene relations from biomedical literature using distant supervision. <i>PLoS ONE</i>,
+						<i>12</i>(3), 1–20. <a
+							href="https://doi.org/10.1371/journal.pone.0171929">https://doi.org/10.1371/journal.pone.0171929</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Krallinger, M., Rabal, O., Leitner, F., Vazquez, M., Salgado, D., Lu, Z.,
+						Leaman, R., Lu, Y., Ji, D., Lowe, D. M., Sayle, R. A., Batista-Navarro, R. T., Rak, R., Huber,
+						T., Rocktäschel, T., Matos, S., Campos, D., Tang, B., Xu, H., … Valencia, A. (2015). The
+						CHEMDNER corpus of chemicals and drugs and its annotation principles. <i>Journal of
+							Cheminformatics</i>, <i>7</i>(Suppl 1), 1–17. <a
+							href="https://doi.org/10.1186/1758-2946-7-S1-S2">https://doi.org/10.1186/1758-2946-7-S1-S2</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Ferreira, J. D., &amp; Couto, F. M. (2015). Improving chemical
+						entity recognition through h-index based semantic similarity. <i>Journal of Cheminformatics</i>,
+						<i>7</i>(Suppl 1), S13. <a
+							href="https://doi.org/10.1186/1758-2946-7-S1-S13">https://doi.org/10.1186/1758-2946-7-S1-S13</a>
+					</div>
+				</li>
+			</ul>
+			<h5>Conference</h5>
+			<ul>
+				<li></li>
+				<div class="csl-entry">Lamurias, A., Tibo, A., Hose, K., Albertsen, M., &amp; Nielsen, T. D. (2023).
+					Metagenomic binning using connectivity-constrained variational autoencoders. <i>International
+						Conference on Machine Learning</i>, 18471–18481. <a
+						href="https://proceedings.mlr.press/v202/lamurias23a.html">https://proceedings.mlr.press/v202/lamurias23a.html</a>
+				</div>
+				</li>
+				<li>
+					<div class="csl-entry">He, J., Nguyen, D. Q., Akhondi, S. A., Druckenbrodt, C., Thorne, C., Hoessel,
+						R., Afzal, Z., Zhai, Z., Fang, B., &amp; Yoshikawa, H. (2020). An extended overview of the CLEF
+						2020 ChEMU lab: Information extraction of chemical reactions from patents. <i>Proceedings of the
+							CLEF 2020 Conference</i>. <a
+							href="https://arodes.hes-so.ch/record/6175?ln=fr&amp;v=pdf">https://arodes.hes-so.ch/record/6175?ln=fr&amp;v=pdf</a>
+					</div>
+				</li>
+				<li>
+					D. Sousa, A. Lamurias, and F. Couto, “A silver standard corpus of human phenotype-gene relations,”
+					in Conference of the North American Chapter of the Association for Computational Linguistics: Human
+					Language Technologies (NAACL 2019), vol. N19-1152, p. 1487–1492, 2019.
+				</li>
+				<li>
+					A. Lamurias, L. Clarke, and F. Couto, “IICE: web tool for automatic identification of chemical
+					entities and interactions,” in European Conference on Machine Learning and Principles and Practice
+					of Knowledge Discovery in Databases (ECML-PKDD), Demo Track, pp. 285–288, 2015.
+				</li>
+				<li>
+					A. Lamurias, V. Pedro, L. Clarke, and F. Couto, “Annotating biomedical terms in electronic health
+					records using crowd-sourcing,” in International Conference on Biomedical Ontologies (ICBO), Early
+					Career, 2015.
+				</li>
+				<li>
+					A. Lamurias, J. Ferreira, and F. Couto, “Chemical named entity recognition: Improving recall using a
+					comprehensive list of lexical features,” in Practical Applications of Computational Biology and
+					Bioinformatics (PACBB), vol. 294, pp. 253–260, Lecture Notes in Computer Science, 2014.
+				</li>
+			</ul>
+			<h5>Workshop</h5>
+			<ul>
+				<li>
+					<div class="csl-entry">Gonçalves, R., &amp; Lamúrias, A. (2024). Team NOVA LINCS@ BIOASQ12
+						MultiCardioNER track: Entity recognition with additional entity types. <i>CLEF Working
+							Notes</i>. <a
+							href="https://ceur-ws.org/Vol-3740/paper-11.pdf">https://ceur-ws.org/Vol-3740/paper-11.pdf</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Cardoso, R., Mendes, A., &amp; Lamurias, A. (2021). <i>Priberam Labs at the
+							NTCIR-15 SHINRA2020-ML: Classification Task</i> (No. arXiv:2105.05605). arXiv. <a
+							href="https://doi.org/10.48550/arXiv.2105.05605">https://doi.org/10.48550/arXiv.2105.05605</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Ruas, P., Lamúrias, A., &amp; Couto, F. M. (2020). Towards a multilingual
+						corpus for named entity linking evaluation in the clinical domain. <i>CEUR Workshop
+							Proceedings</i>, <i>2619</i>. <a
+							href="https://researchportal.ulisboa.pt/en/publications/towards-a-multilingual-corpus-for-named-entity-linking-evaluation">https://researchportal.ulisboa.pt/en/publications/towards-a-multilingual-corpus-for-named-entity-linking-evaluation</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Barros, M. A., Lamurias, A., Sousa, D., Ruas, P., &amp; Couto, F. M. (2020).
+						COVID-19: A semantic-based pipeline for recommending biomedical entities. <i>Proceedings of the
+							1st Workshop on NLP for COVID-19 (Part 2) at EMNLP 2020</i>. <a
+							href="https://aclanthology.org/2020.nlpcovid19-2.20/">https://aclanthology.org/2020.nlpcovid19-2.20/</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Neves, A., Lamurias, A., &amp; Couto, F. M. (2020). Biomedical Question
+						Answering using Extreme Multi-Label Classification and Ontologies in the Multilingual Panorama.
+						<i>SIIRH@ ECIR</i>. <a
+							href="https://ceur-ws.org/Vol-2619/short2.pdf">https://ceur-ws.org/Vol-2619/short2.pdf</a>
+					</div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., &amp; Couto, F. M. (2019). LasigeBioTM at MEDIQA 2019:
+						Biomedical question answering using bidirectional transformers and named entity recognition.
+						<i>Proceedings of the 18th BioNLP Workshop and Shared Task</i>, 523–527. <a
+							href="https://aclanthology.org/W19-5057/">https://aclanthology.org/W19-5057/</a></div>
+				</li>
+				<li>
+					<div class="csl-entry">Campos, L. F., Lamurias, A., &amp; Couto, F. M. (2017). Can the Wisdom of the
+						Crowd Be Used to Improve the Creation of Gold-standard for Text Mining applications? <i>9th
+							INForum - Simpósio de Informática (INForum 2017).</i></div>
+				</li>
+				<li>
+					F. Couto, L. Campos, and A. Lamurias, “MER: a minimal named-entity recognition tagger and annotation
+					server,” in BioCreative V.5 Challenge Evaluation, 2017.
+				</li>
+				<li>
+					A. Lamurias, L. Campos, and F. Couto, “IBEnt: Chemical entity mentions in patents using ChEBI,” in
+					BioCreative V.5 Challenge Evaluation, 2017.
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Sousa, D., Pereira, S., Clarke, L. A., &amp; Couto, F. M.
+						(2017). ULISBOA at SemEval-2017 Task 12: Extraction and classification of temporal expressions
+						and events. <i>Proceedings of the 11th International Workshop on Semantic Evaluation
+							(SemEval-2017)</i>, 1019–1023. <a
+							href="https://aclanthology.org/S17-2179/">https://aclanthology.org/S17-2179/</a></div>
+				</li>
+				<li>
+					<div class="csl-entry">Barros, M., Lamurias, A., Figueiro, G., Antunes, M., Teixeira, J., Pinheiro,
+						A., &amp; Couto, F. M. (2016). ULISBOA at SemEval-2016 task 12: Extraction of temporal
+						expressions, clinical events and relations using IBEnt. <i>SemEval 2016 - 10th International
+							Workshop on Semantic Evaluation, Proceedings</i>, 1263–1267. <a
+							href="https://doi.org/10.18653/v1/s16-1196">https://doi.org/10.18653/v1/s16-1196</a></div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Lobo, M., Antunes, M., Clarke, L. A., &amp; Couto, F. M.
+						(2015). Identifying chemical entities in patents using brown clustering and semantic similarity.
+						<i>Proceedings of the Fifth BioCreative Challenge Evaluation Workshop</i>, 124–128.</div>
+				</li>
+				<li>
+					<div class="csl-entry">Lamurias, A., Grego, T., &amp; Couto, F. M. (2013). Chemical compound and
+						drug name recognition using CRFs and semantic similarity based on ChEBI. <i>BioCreative
+							Challenge Evaluation Workshop Vol. 2</i>, <i>489</i>, 75. </div>
+				</li>
+			</ul>
+
 		</div>
-		<div class="row talks text-justify">
-			<hr>
-			<div class="large-12 columns" id="talks">
-				<h4>Presentations</h4>
-                <!--h5>Future</h5-->
-                   
-                <!--h5>Past</h5-->
-		<ul>
-		    <li>
-			2023/08/29 - <a href="https://naacl2019.org/program/accepted/">ICML Workshop on Computational Biology, Honolulu, Hawaii, USA  (Poster presentation): Graph Neural Networks for Metagenomic Binning</a>
-		    </li>
-		<li>
-			2023/08/27 - <a href="https://icml-compbio.github.io/#papers_session1">ICML, Honolulu, Hawaii, USA (Poster presentation): Metagenomic Binning using Connectivity-constrained Variational Autoencoders</a>
-		</li>
-			<li>
-			2023/04/26 - <a href="https://nova-lincs.di.fct.unl.pt/seminars/440"> NOVA Lincs seminar: Making sense of biological sequences: biomedical text mining and microbial genome recovery</a>
-			</li>
-		    <li>
-		    2021/11/16 - Hands-on metagenomics using Oxford Nanopore DNA sequencing (PhD course), Aalborg University, Aalborg, Denmark: Metagenomic Binning
-		    </li>
-			<li>
-			2021/11/11 - AI for the People Conference and Networking (Poster presentation)
-			</li>
-		    <li>
-		    2021/06/22 - Fundamentals of Clinical Data Science (PhD course), Aalborg University Hospital, Aalborg, Denmark: Lecture on Extraction of information from unstructured data using NLP
-		    </li>
-                    <li>
-                    2020/10/23 - Seminar for Bioinformatics MSc Students, FCUL, Lisbon, Portugal: Text mining approaches for health and life sciences
-		    </li>    
-		    <li>
-                    2019/11/28 - <a href="http://dest.rd.ciencias.ulisboa.pt/2019/11/21/8th-dest-project-meeting/">8th DeST Meeting</a>, FCUL, Lisbon, Portugal: Python packaging tutorial
-                    <li>
-                    2019/10/04 - Seminar for Data Science MSc Students, FCUL, Lisbon, Portugal: Text mining approaches for bioinformatics
-                    <li>    
-                    2019/06/03 - <a href="https://naacl2019.org/program/accepted/">NAACL, Minneapolis, Minnesota, USA (Poster presentation): A Silver Standard Corpus of Human Phenotype-Gene Relations</a>
-                    </li>
-                     <li>
-                    2019/05/29 - <a href="https://www.itqb.unl.pt/cooltools">Cool Tools for Science</a>, Champalimaud Foundation, Lisboa, Portugal
-                    </li>
-                    <li>
-                    2019/04/12 - <a href="https://www.facebook.com/events/1219610451547033/permalink/1221483454693066/">IV Ciclo Conferências de Ciências Biomédicas à Tarde</a>, UBI Covilha, Portugal: Text Mining Approaches for Bioinformatics
-                    </li>
-                    <li> 
-                    2019/02/22 - <a href="https://www.greekc.org/activity/malaga-workshop/">The role of text mining in curation workflows</a>, GREEKC Workshop, Málaga, Spain: Extracting microRNA-gene relations from biomedical literature using distant supervision 
-                    </li>
-                    2019/02/08 - <a href="https://ciencias.ulisboa.pt/pt/evento/08-02-2019/prova-de-doutoramento-development-of-text-mining-approach-to-disease-network">PhD Defense</a>, FCUL, Lisbon, Portugal: Development of Text Mining Approach to Disease Network Discovery
-                    </li>
-                    <li>
-                    2018/12/19 - <a href="http://dest.rd.ciencias.ulisboa.pt/2018/11/30/2nd-dest-project-meeting/">2nd DeST Meeting</a>, FCUL, Lisbon, Portugal: Development of Text Mining Approach to Disease Network Discovery (first draft of PhD defense) 
-                    </li>
-                    <li>
-                    2018/12/03 - Seminar for Bioinformatics MSc Students, FCUL, Lisbon, Portugal: Text mining approaches for bioinformatics
-                    </li>
-                    <li>
-                    2017/10/12 - INforum, Aveiro, Portugal: <a href="http://webpages.fc.ul.pt/~fjcouto/files/workshop%20lcampos-inforum2017.pdf"> the Wisdom of the Crowd Be Used to Improve the Creation of Gold-standard for Text Mining applications?</a>
-                    </li>
-                    <li>
-                    2017/02/22 - Text mining workshop, Bioinformatics Open Days, Braga, Portugal, 
-                    </li>
-                    <li>
-                    2016/07/23 - Instituto de Higiene Medicina Tropical, Lisboa, Portugal; <a href="http://www.ihmt.unl.pt/ihmt-institut-francais-organizam-seminario-big-data/">Big Data, Desenvolvimento Sustentável e a Ciência Aberta</a>
-                    </lI>
-                    <li>
-                    2015/07/30 - ICBO, Early Careers track, Lisbon, Portugal: <a href="http://webpages.fc.ul.pt/~fjcouto/files/conference%20alamurias-icbo2015.pdf">Annotating biomedical ontology terms in
-                    electronic health records using crowd-sourcing</a>
-                    </li>
-                    <li>
-                    2015/09/08 - ECML PKDD demo track, Porto, Portugal: <a href="http://webpages.fc.ul.pt/~fjcouto/files/conference%20alamurias-pkdd2015.pdf">IICE: web tool for automatic identification of chemical entities and interactions</a>
-                    </li>
-                    <li>
-                    2014/09/26 - Master's thesis defense, FCUL, Lisbon, Portugal: Identifying Interactions Between Chemical Entities in Text
-                    </li>
-					</ul>
-			</div>
+	</div>
+	<div class="row talks text-justify">
+		<hr>
+		<div class="large-12 columns" id="talks">
+			<h4>Presentations</h4>
+			<!--h5>Future</h5-->
+
+			<!--h5>Past</h5-->
+			<ul>
+				<li>
+					2023/08/29 - <a href="https://naacl2019.org/program/accepted/">ICML Workshop on Computational
+						Biology, Honolulu, Hawaii, USA (Poster presentation): Graph Neural Networks for Metagenomic
+						Binning</a>
+				</li>
+				<li>
+					2023/08/27 - <a href="https://icml-compbio.github.io/#papers_session1">ICML, Honolulu, Hawaii, USA
+						(Poster presentation): Metagenomic Binning using Connectivity-constrained Variational
+						Autoencoders</a>
+				</li>
+				<li>
+					2023/04/26 - <a href="https://nova-lincs.di.fct.unl.pt/seminars/440"> NOVA Lincs seminar: Making
+						sense of biological sequences: biomedical text mining and microbial genome recovery</a>
+				</li>
+				<li>
+					2021/11/16 - Hands-on metagenomics using Oxford Nanopore DNA sequencing (PhD course), Aalborg
+					University, Aalborg, Denmark: Metagenomic Binning
+				</li>
+				<li>
+					2021/11/11 - AI for the People Conference and Networking (Poster presentation)
+				</li>
+				<li>
+					2021/06/22 - Fundamentals of Clinical Data Science (PhD course), Aalborg University Hospital,
+					Aalborg, Denmark: Lecture on Extraction of information from unstructured data using NLP
+				</li>
+				<li>
+					2020/10/23 - Seminar for Bioinformatics MSc Students, FCUL, Lisbon, Portugal: Text mining approaches
+					for health and life sciences
+				</li>
+				<li>
+					2019/11/28 - <a href="http://dest.rd.ciencias.ulisboa.pt/2019/11/21/8th-dest-project-meeting/">8th
+						DeST Meeting</a>, FCUL, Lisbon, Portugal: Python packaging tutorial
+				<li>
+					2019/10/04 - Seminar for Data Science MSc Students, FCUL, Lisbon, Portugal: Text mining approaches
+					for bioinformatics
+				<li>
+					2019/06/03 - <a href="https://naacl2019.org/program/accepted/">NAACL, Minneapolis, Minnesota, USA
+						(Poster presentation): A Silver Standard Corpus of Human Phenotype-Gene Relations</a>
+				</li>
+				<li>
+					2019/05/29 - <a href="https://www.itqb.unl.pt/cooltools">Cool Tools for Science</a>, Champalimaud
+					Foundation, Lisboa, Portugal
+				</li>
+				<li>
+					2019/04/12 - <a
+						href="https://www.facebook.com/events/1219610451547033/permalink/1221483454693066/">IV Ciclo
+						Conferências de Ciências Biomédicas à Tarde</a>, UBI Covilha, Portugal: Text Mining Approaches
+					for Bioinformatics
+				</li>
+				<li>
+					2019/02/22 - <a href="https://www.greekc.org/activity/malaga-workshop/">The role of text mining in
+						curation workflows</a>, GREEKC Workshop, Málaga, Spain: Extracting microRNA-gene relations from
+					biomedical literature using distant supervision
+				</li>
+				2019/02/08 - <a
+					href="https://ciencias.ulisboa.pt/pt/evento/08-02-2019/prova-de-doutoramento-development-of-text-mining-approach-to-disease-network">PhD
+					Defense</a>, FCUL, Lisbon, Portugal: Development of Text Mining Approach to Disease Network
+				Discovery
+				</li>
+				<li>
+					2018/12/19 - <a href="http://dest.rd.ciencias.ulisboa.pt/2018/11/30/2nd-dest-project-meeting/">2nd
+						DeST Meeting</a>, FCUL, Lisbon, Portugal: Development of Text Mining Approach to Disease Network
+					Discovery (first draft of PhD defense)
+				</li>
+				<li>
+					2018/12/03 - Seminar for Bioinformatics MSc Students, FCUL, Lisbon, Portugal: Text mining approaches
+					for bioinformatics
+				</li>
+				<li>
+					2017/10/12 - INforum, Aveiro, Portugal: <a
+						href="http://webpages.fc.ul.pt/~fjcouto/files/workshop%20lcampos-inforum2017.pdf"> the Wisdom of
+						the Crowd Be Used to Improve the Creation of Gold-standard for Text Mining applications?</a>
+				</li>
+				<li>
+					2017/02/22 - Text mining workshop, Bioinformatics Open Days, Braga, Portugal,
+				</li>
+				<li>
+					2016/07/23 - Instituto de Higiene Medicina Tropical, Lisboa, Portugal; <a
+						href="http://www.ihmt.unl.pt/ihmt-institut-francais-organizam-seminario-big-data/">Big Data,
+						Desenvolvimento Sustentável e a Ciência Aberta</a>
+				</lI>
+				<li>
+					2015/07/30 - ICBO, Early Careers track, Lisbon, Portugal: <a
+						href="http://webpages.fc.ul.pt/~fjcouto/files/conference%20alamurias-icbo2015.pdf">Annotating
+						biomedical ontology terms in
+						electronic health records using crowd-sourcing</a>
+				</li>
+				<li>
+					2015/09/08 - ECML PKDD demo track, Porto, Portugal: <a
+						href="http://webpages.fc.ul.pt/~fjcouto/files/conference%20alamurias-pkdd2015.pdf">IICE: web
+						tool for automatic identification of chemical entities and interactions</a>
+				</li>
+				<li>
+					2014/09/26 - Master's thesis defense, FCUL, Lisbon, Portugal: Identifying Interactions Between
+					Chemical Entities in Text
+				</li>
+			</ul>
 		</div>
-		<div class="row other">
-			<hr>
-			<div class="text-justify large-12 columns" id="other">
-				<h4>Other Interests</h4>
-					<ul>
-                        <li>Music: <a href="http://www.last.fm/user/Lamurias">Last.fm</a></li>
-                        <!--li>Record collection: <a href="https://www.discogs.com/user/lamurias/collection">Discogs</a></li>
+	</div>
+	<div class="row other">
+		<hr>
+		<div class="text-justify large-12 columns" id="other">
+			<h4>Other Interests</h4>
+			<ul>
+				<li>Music: <a href="http://www.last.fm/user/Lamurias">Last.fm</a></li>
+				<!--li>Record collection: <a href="https://www.discogs.com/user/lamurias/collection">Discogs</a></li>
 			<li>Concerts: <a href="https://www.setlist.fm/user/Lamurias">Setlist.fm</a></li-->
-						<li>Movies: <a href="https://letterboxd.com/lamurias/">Letterboxd</a></li>
-                        <!--li>TV Shows: <a href="https://trakt.tv/users/lamurias">trackt</a></li-->
-						<li>Books: <a href="https://www.goodreads.com/lamurias">GoodReads</a></li>
-                        <!--li><a href="http://www.dhamma.org/">Vipassana meditation</a></li-->
-					</ul>
-		
+				<li>Movies: <a href="https://letterboxd.com/lamurias/">Letterboxd</a></li>
+				<!--li>TV Shows: <a href="https://trakt.tv/users/lamurias">trackt</a></li-->
+				<li>Books: <a href="https://www.goodreads.com/lamurias">GoodReads</a></li>
+				<!--li><a href="http://www.dhamma.org/">Vipassana meditation</a></li-->
+			</ul>
+
+		</div>
+	</div>
+	<div class="row contact">
+		<hr>
+		<div class="large-12 columns" id="contact">
+			<h4>Contacts</h4>
+			<div class="row">
+				<div class="large-4 columns">
+					<strong>Email</strong>: <a
+						href="http://www.google.com/recaptcha/mailhide/d?k=01SrlbJpZx0wJXhPJrJOQv3A==&amp;c=Y_8_PQP1XY1B4QiXV-yngwQl0DFi1xDA3VW6flSK9V0="
+						onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501SrlbJpZx0wJXhPJrJOQv3A\75\75\46c\75Y_8_PQP1XY1B4QiXV-yngwQl0DFi1xDA3VW6flSK9V0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+						title="Reveal this e-mail address">a...</a>@gmail.com
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="large-12 columns">
+					<strong>Address</strong>:<br>
+					Departamento de Informática <br>
+					Faculdade de Ciências e Tecnologia <br>
+					Universidade Nova de Lisboa <br>
+					Quinta da Torre, 2829 -516 CAPARICA, PORTUGAL <br>
+					Office: Ed II. 249
+				</div>
 			</div>
 		</div>
-		<div class="row contact">
-			<hr>
-			<div class="large-12 columns" id="contact">
-				<h4>Contacts</h4>
-				<div class="row">
-					<div class="large-4 columns">
-						<strong>Email</strong>: <a href="http://www.google.com/recaptcha/mailhide/d?k=01SrlbJpZx0wJXhPJrJOQv3A==&amp;c=Y_8_PQP1XY1B4QiXV-yngwQl0DFi1xDA3VW6flSK9V0=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501SrlbJpZx0wJXhPJrJOQv3A\75\75\46c\75Y_8_PQP1XY1B4QiXV-yngwQl0DFi1xDA3VW6flSK9V0\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">a...</a>@gmail.com
-					</div>
-					
+	</div>
+
+	<footer class="row">
+		<div class="large-12 columns">
+			<div class="row">
+				<div class="large-6 columns">
+					<p>© Copyright 2025 André Lamúrias</p>
 				</div>
-				<div class="row">
-					<div class="large-12 columns">
-						<strong>Address</strong>:<br>
-						Departamento de Informática <br>
-Faculdade de Ciências e Tecnologia <br>
-Universidade Nova de Lisboa <br>
-Quinta da Torre, 2829 -516 CAPARICA, PORTUGAL <br>
-Office: Ed II. 249
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<footer class="row">
-			<div class="large-12 columns">
-				<div class="row">
-					<div class="large-6 columns">
-						<p>© Copyright 2025 André Lamúrias</p>
-					</div>
-					<!--div class="large-6 columns">
+				<!--div class="large-6 columns">
 						<ul class="inline-list right">
 							<li><a href="#">FAQ</a></li>
 							<li><a href="#">Privacy</a></li>
 							<li><a href="#">Suscribe</a></li>
 						</ul>
 					</div-->
-				</div>
 			</div>
-		</footer>
-		
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/foundation/foundation.clearing.js"></script>
-		
-	</body>
+		</div>
+	</footer>
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/foundation/foundation.clearing.js"></script>
+
+</body>
+
 </html>
